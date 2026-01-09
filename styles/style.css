@@ -4,13 +4,26 @@
     padding: 5px;
 }
 
+header{
+    background: #FBFBFB;
+}
+
+
+.open-sans{
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: normal;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+}
+
+
 
 header nav{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    height: 92px;
-    padding: 16px 120px;
+    width: 71%;
+    max-width: 1140px;
+    margin: 0 auto;
+
 }
 
 header nav{
@@ -25,6 +38,10 @@ nav ul{
     list-style: none;
     display: flex;
     gap: 20px;
+    font-size: 16px;
+    font-weight: 500;
+    font-style: medium;
+    font-family: Inter;
 }
 
 .btn{
