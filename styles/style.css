@@ -18,8 +18,10 @@ header{
 
 header nav{
     background: #FBFBFB;
+    height: 92px;
+    padding: 16px 120px 16px 120px;
     width: auto;
-    max-width: 1140px;
+    max-width: 1440px;
     margin: 0 auto;
 
 }
@@ -35,7 +37,7 @@ header nav{
 nav ul{
     list-style: none;
     display: flex;
-    gap: 20px;
+    gap: 32px;
     font-size: 16px;
     font-weight: 500;
     font-style: medium;
@@ -63,11 +65,10 @@ nav ul{
     border: 1px solid white;
     height: 52px;
     width: auto;
-    justify-content: center;
+    align-items: center;
     border-radius: 5px;
     display: flex;
     flex-direction: row;
-    align-items: center;
     cursor: pointer;
 }
 
@@ -81,9 +82,6 @@ nav ul li a{
     font-weight: bold;
 }
 
-#banner{
-    border: 1px solid red;
-}
 
 .banner-content{
     background: url(../assets/hero-bg.png);
@@ -190,3 +188,159 @@ nav ul li a{
     margin-top: 16px;
 }
 
+#card{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+#card-container .round-shape{
+    width: 60px;
+    height: 60px;
+    background-color: #F95555; 
+    border-radius: 55px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#card .card-title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 132px;
+}
+
+#card .card-title h1{
+   font-style: Bold;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 58px;
+    letter-spacing: 0%;
+    text-transform: capitalize;
+}
+
+#card .card-title p{
+    margin-top: 16px;
+}
+
+
+#card-container{
+    display: flex;
+    flex-direction: center;
+    align-items: center;
+    margin-top: 44px;
+    gap: 16px;
+    height: 300px;
+    background-color: white;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.06);
+}
+
+
+#card-container .card-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 24px;
+    height: 300px;
+    background-color: #e3fccc;
+
+}
+
+#card-container .card-content h3{
+    font-family: Inter;
+    font-style: Semi Bold;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 29px;
+    letter-spacing: 0%;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+#card-container.card-content p{
+    font-family: Inter;
+    font-style: Regular;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+#brain{
+    display: flex;
+    justify-content: justify;
+    align-items: center;
+    gap: 60px;
+    padding: 120px;
+    margin-top: 72px;
+}
+
+#brain div.article-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+#brain div.article-content h6{
+    font-family: Inter;
+    font-style: Medium;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0%;
+    text-align: left;
+    text-transform: uppercase;
+    color: #30B868;
+
+}
+#brain div.article-content h2{
+    color: #001931;
+    margin-top: 16px;
+    font-family: Inter;
+    font-style: Bold;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 58px;
+    letter-spacing: 0%;
+    text-align: left;
+    text-transform: capitalize;
+}
+
+#brain div ul li{
+    list-style-image: url(../assets/CheckCircle.png);
+
+}
+
+#brain div .article-content p{
+font-family: Inter;
+font-style: Regular;
+font-size: 16px;
+font-weight: 400;
+line-height: 20px;
+letter-spacing: 0%;
+text-align: left;
+}
+
+#brain div.article-content ul{
+align-items: center;
+color:#001931;
+font-family: Inter;
+font-style: Medium;
+font-size: 16px;
+font-weight: 500;
+line-height: 20px;
+letter-spacing: 0%;
+text-align: left;
+}
+
+#early-access .EA-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: justify;
+    align-items: center;
+    margin: 0px 120px 120px 120px;
+}
