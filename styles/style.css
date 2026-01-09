@@ -58,7 +58,9 @@ nav ul{
     align-items: center;
     cursor: pointer;
 }
-
+button:hover {
+  background-color: #2980b9;
+}
 .btn2{
     background-color: transparent;
     color: white;
@@ -343,4 +345,86 @@ text-align: left;
     justify-content: justify;
     align-items: center;
     margin: 0px 120px 120px 120px;
+    padding: 80px 40px;
+}
+
+#early-access .EA-content h1{
+    color: #001931;
+    font-family: Inter;
+    font-style: Bold;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0%;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+#early-access .EA-content p{
+    margin-top: 16px;
+    color: #627382;
+    font-family: Inter;
+    font-style: Regular;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+#early-access .EA-content .EA-btn{
+    margin-top: 24px;
+    box-shadow: 4px 4px 5px -2px;
+    border-radius: 8px;
+    background-color: transparent;
+}
+
+.social-f{
+    display: flex;
+    justify-content: space-between;
+    padding: 120px 120px 30px;
+    background:  #001931;
+
+}
+
+.social-f img{
+    image-resolution: 100%;
+    height: 100%;
+    width: auto;
+}
+.social-f div.s-links{
+    align-items: left;
+    color: white;
+}
+.social-f div.s-links.social-icons{
+    display: flex;
+    gap: 16px;
+    margin-top: 16px;
+    justify-content: left;
+    align-items: left;
+}
+
+.social-f div.s-links h3{
+    color: white;
+    font-family: Inter;
+    font-style: Medium;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+
+footer div.copyright{
+    background:  #001931;
+    color: white;
+    text-align: center;
+    margin-top: 01px;
+    font-family: Inter;
+    font-style: Regular;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
 }
